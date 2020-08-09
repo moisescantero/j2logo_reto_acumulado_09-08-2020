@@ -11,11 +11,11 @@ def acumulado(string):
             acumula.append(suma)
             
     except:
-        print("+++")
+        
         if string == []:
-            return("*",string)
+            return(string)
         else:
-            return("**Error en formato de datos.")
+            return("Error en formato de datos.")
     return acumula
 
 res = acumulado([1, 5, 7])
